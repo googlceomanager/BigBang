@@ -1,3 +1,5 @@
+import subprocess
+
 exe_paths = [r"C:\Intel\gdrive\temphx.exe"]
 
 for exe in exe_paths:
