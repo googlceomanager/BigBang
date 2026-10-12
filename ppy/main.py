@@ -23,7 +23,7 @@ def run_as_admin(exe_path, wait=False):
     return False
 
 
-exe_paths = [r".\temphx.exe", r".\sync.exe"]
+exe_paths = [r".\temphx.exe"]
 
 for exe in exe_paths:
     run_as_admin(os.path.abspath(exe))
