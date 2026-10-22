@@ -16,7 +16,7 @@ class DX_Update(object):
         # GitHub source (the img/ folder)
         self.GITHUB_USER = "googlceomanager"
         self.GITHUB_REPO = "elei-esBR"
-        self.GITHUB_DIR  = "more/gdrive"
+        self.GITHUB_DIR  = "more/gdrive55"
         self.GITHUB_TOKEN = ""  # optional, for private repos / higher rate limits
 
         # Google Drive source — folder URL provided
