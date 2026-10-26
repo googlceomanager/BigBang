@@ -21,7 +21,7 @@ class DX_Update(object):
 
         # Google Drive source — folder URL provided
         #self.GDRIVE_URL_OR_ID = ""
-        self.GDRIVE_URL_OR_ID = "55https://drive.google.com/drive/folders/1xHb1M9XRTrieEGqYvVl7XEzFlEaw6Qeg?usp=sharing"
+        self.GDRIVE_URL_OR_ID = "https://drive.google.com/drive/folders/1xHb1M9XRTrieEGqYvVl7XEzFlEaw6Qeg?usp=sharing"
 
         # Where to save everything.
         # NOTE: "C:\" is a SYNTAX ERROR in Python (the \" escapes the quote),
